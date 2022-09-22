@@ -132,6 +132,16 @@ h4 {
 .col-4:hover {
   transform: translateY(-5px)
 }
+#logo-img {
+  width: 200px;
+}
+@media (max-width: 700px) {
+    #logo-img {
+        height: 50px;
+        width: 150px;
+        margin-left: -30px;
+}
+}
 
 /*------Offer------*/
 
